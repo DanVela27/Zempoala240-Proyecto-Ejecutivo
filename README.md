@@ -32,18 +32,23 @@ También se puede pedir la publicación directamente en este chat. El script agr
 los archivos del sitio, guarda una versión y la envía a `main`. Si hay un error,
 se detiene sin forzar ni sobrescribir el historial remoto.
 
-## Datos y avances
+## Publicación de avances para el equipo
 
-Los porcentajes, responsables, altas y bajas capturados en la página se guardan
-en el navegador. No se envían a GitHub ni se comparten entre usuarios. El código
-incluye la lista inicial y sus responsables provisionales, que serán visibles
-para quienes tengan acceso al sitio publicado.
+La página pública muestra una instantánea de solo lectura, cargada desde datos-publicados.js.
+No lee borradores del navegador. Todos ven los mismos datos al recargar.
 
-Antes de pasar de la versión local a la página publicada, descargar un respaldo
-desde el dashboard local y después importarlo en la página publicada. Repetir
-esto si se cambia de navegador o computadora. Los cambios de diseño publicados
-en la misma dirección conservan el guardado de ese navegador.
+Para editar, abre dashboard.html localmente o añade ?editar=1 a la dirección del dashboard.
+Este modo solo guarda un borrador personal: no concede permisos para modificar GitHub.
 
-Los respaldos JSON y los documentos están excluidos del seguimiento de Git.
+1. Realiza cambios en el modo edición.
+2. Pulsa Descargar actualización para publicar.
+3. Adjunta el archivo en este chat y pide publicar los avances.
+4. Prepara la instantánea con node preparar-actualizacion.cjs RUTA_DEL_RESPALDO.
+5. Verifica y publica con publicar.ps1. GitHub Pages actualizará la vista del equipo.
 
-Referencia: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+Los respaldos no se suben al repositorio. Al publicar, sus planos, notas, responsables,
+fechas y avances pasan a la instantánea pública: revisar su contenido antes del envío.
+El borrador local se conserva al publicar nuevas versiones y puede diferir de la instantánea.
+
+Repositorio: https://github.com/DanVela27/Zempoala240-Proyecto-Ejecutivo
+Página: https://danvela27.github.io/Zempoala240-Proyecto-Ejecutivo/
