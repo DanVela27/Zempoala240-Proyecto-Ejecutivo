@@ -1,5 +1,5 @@
 window.ZEMPOALA_PUBLICADO = {
-  "updated": "2026-10-26T17:14:36.072Z",
+  "updated": "2026-10-26T17:16:03.979Z",
   "rows": [
     {
       "id": "GEN-01",

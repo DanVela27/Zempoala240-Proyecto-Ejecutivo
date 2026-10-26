@@ -11,3 +11,8 @@ vm.runInContext(validation + ';globalThis.validated = validate(backup.rows);', c
 const snapshot = {updated:new Date().toISOString(), rows:context.validated};
 fs.writeFileSync('datos-publicados.js', 'window.ZEMPOALA_PUBLICADO = ' + JSON.stringify(snapshot, null, 2).replace(/</g, '\\u003c') + ';\n');
 console.log('Actualización preparada: ' + snapshot.rows.length + ' planos. Revisa y publica la versión.');
+
+const crypto = require('node:crypto');
+const revision = crypto.createHash('sha256').update(fs.readFileSync('datos-publicados.js')).digest('hex').slice(0,12);
+const html = fs.readFileSync('dashboard.html', 'utf8').replace(/src="datos-publicados\.js(?:\?v=[a-f0-9]+)?"/, 'src="datos-publicados.js?v=' + revision + '"');
+fs.writeFileSync('dashboard.html', html);
