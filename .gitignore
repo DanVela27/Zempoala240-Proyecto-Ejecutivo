@@ -1,0 +1,10 @@
+# Datos personales guardados o exportados: no publicar en GitHub.
+*.json
+*.zip
+*.pdf
+*.xlsx
+*.docx
+node_modules/
+.env
+.env.*
+*.log

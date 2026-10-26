@@ -1,0 +1,10 @@
+const fs = require('node:fs');
+const assert = require('node:assert/strict');
+const html = fs.readFileSync('dashboard.html', 'utf8');
+const script = html.match(/<script>([\s\S]*?)<\/script>/)?.[1];
+assert(script, 'No se encontró el código del dashboard.');
+new Function(script);
+assert(html.includes('id="addPlan"'), 'Falta agregar planos.');
+assert(html.includes('data-delete='), 'Falta eliminar planos.');
+assert(fs.readFileSync('index.html', 'utf8').includes('./dashboard.html'));
+console.log('Verificación correcta: dashboard y página de entrada.');
