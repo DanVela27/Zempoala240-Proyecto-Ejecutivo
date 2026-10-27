@@ -13,7 +13,7 @@ Confirmar-Comando
 if ($ramaActual -ne 'main') { throw 'La publicación requiere estar en la rama main.' }
 git remote get-url origin
 Confirmar-Comando
-git add -- dashboard.html index.html .nojekyll .gitignore README.md verificar.cjs publicar.ps1 datos-publicados.js preparar-actualizacion.cjs
+git add -- dashboard.html index.html .nojekyll .gitignore README.md verificar.cjs publicar.ps1 datos-publicados.js preparar-actualizacion.cjs migrar-laminas.js equivalencias-laminas.md
 Confirmar-Comando
 git diff --cached --quiet
 if ($LASTEXITCODE -eq 1) {
