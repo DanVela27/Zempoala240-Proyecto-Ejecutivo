@@ -1,5 +1,5 @@
 window.ZEMPOALA_PUBLICADO = {
-  "updated": "2026-10-26T17:16:03.979Z",
+  "updated": "2026-10-27T01:26:40.234Z",
   "rows": [
     {
       "id": "GEN-01",
@@ -40,8 +40,8 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Base arquitectónica",
       "delivery": true,
       "owner": "Dan",
-      "status": "En revisión",
-      "progress": null,
+      "status": "Terminado",
+      "progress": 100,
       "date": "2026-10-27",
       "notes": ""
     },
@@ -150,8 +150,8 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Base arquitectónica",
       "delivery": false,
       "owner": "Antonio",
-      "status": "En proceso",
-      "progress": null,
+      "status": "Terminado",
+      "progress": 100,
       "date": "2026-10-27",
       "notes": ""
     },
@@ -161,8 +161,8 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Base arquitectónica",
       "delivery": false,
       "owner": "Antonio",
-      "status": "En proceso",
-      "progress": null,
+      "status": "Terminado",
+      "progress": 100,
       "date": "2026-10-27",
       "notes": ""
     },
@@ -172,8 +172,8 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Base arquitectónica",
       "delivery": false,
       "owner": "Antonio",
-      "status": "En proceso",
-      "progress": null,
+      "status": "Terminado",
+      "progress": 100,
       "date": "2026-10-27",
       "notes": ""
     },
@@ -260,8 +260,8 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Acabados e interiores",
       "delivery": false,
       "owner": "Antonio",
-      "status": "En proceso",
-      "progress": null,
+      "status": "Terminado",
+      "progress": 100,
       "date": "2026-10-27",
       "notes": ""
     },
@@ -271,8 +271,8 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Acabados e interiores",
       "delivery": false,
       "owner": "Antonio",
-      "status": "En proceso",
-      "progress": null,
+      "status": "Terminado",
+      "progress": 100,
       "date": "2026-10-27",
       "notes": ""
     },
@@ -282,8 +282,8 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Acabados e interiores",
       "delivery": false,
       "owner": "Antonio",
-      "status": "En proceso",
-      "progress": null,
+      "status": "Terminado",
+      "progress": 100,
       "date": "2026-10-27",
       "notes": ""
     },
@@ -381,8 +381,8 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Acabados e interiores",
       "delivery": true,
       "owner": "Dan",
-      "status": "Pendiente",
-      "progress": null,
+      "status": "Terminado",
+      "progress": 100,
       "date": "2026-10-27",
       "notes": "Incluir modulación, alzados acotados, cortes y salidas de gas, agua fría, caliente y drenaje. Confirmar equipos y medidas pendientes."
     },
