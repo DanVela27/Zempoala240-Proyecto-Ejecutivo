@@ -1,6 +1,6 @@
 window.ZEMPOALA_PUBLICADO = {
   "version": 2,
-  "updated": "2026-10-27T16:21:33.972Z",
+  "updated": "2026-11-02T16:17:50.926Z",
   "rows": [
     {
       "id": "GEN-01",
@@ -58,17 +58,6 @@ window.ZEMPOALA_PUBLICADO = {
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nDEM-01: Demoliciones, desmontajes y retiros — Planta baja; Dan; Terminado; 100 %; fecha 2026-10-27\nDEM-02: Demoliciones, desmontajes y retiros — Planta alta; Dan; Terminado; 100 %; fecha 2026-10-27"
     },
     {
-      "id": "DEM-02",
-      "name": "Demoliciones, desmontajes y retiros — Azotea",
-      "group": "Base arquitectónica",
-      "delivery": true,
-      "owner": "Sin asignar",
-      "status": "Pendiente",
-      "progress": null,
-      "date": "2026-10-27",
-      "notes": "Reorganización PB + PA. Origen (claves anteriores):\nDEM-03: Demoliciones, desmontajes y retiros — Azotea; Sin asignar; Pendiente; sin avance confirmado; fecha 2026-10-27"
-    },
-    {
       "id": "ARQ-01",
       "name": "Proyecto arquitectónico — Planta baja y planta alta",
       "group": "Base arquitectónica",
@@ -85,8 +74,8 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Base arquitectónica",
       "delivery": true,
       "owner": "Sin asignar",
-      "status": "Pendiente",
-      "progress": null,
+      "status": "Terminado",
+      "progress": 100,
       "date": "2026-10-27",
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nARQ-03: Proyecto arquitectónico — Azotea; Sin asignar; Pendiente; sin avance confirmado; fecha 2026-10-27"
     },
@@ -98,7 +87,7 @@ window.ZEMPOALA_PUBLICADO = {
       "owner": "Dan",
       "status": "En proceso",
       "progress": null,
-      "date": "2026-10-27",
+      "date": "",
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nARQ-04: Cortes arquitectónicos; Dan; En proceso; sin avance confirmado; fecha 2026-10-27"
     },
     {
@@ -228,9 +217,9 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Acabados e interiores",
       "delivery": true,
       "owner": "Antonio",
-      "status": "Terminado",
-      "progress": 100,
-      "date": "2026-10-27",
+      "status": "En proceso",
+      "progress": 50,
+      "date": "",
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nACA-03: Acabados e impermeabilización — Azotea; Antonio; Terminado; 100 %; fecha 2026-10-27"
     },
     {
@@ -239,7 +228,7 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Acabados e interiores",
       "delivery": false,
       "owner": "Sin asignar",
-      "status": "Sin confirmar",
+      "status": "Con bloqueo",
       "progress": null,
       "date": "",
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nACA-04: Despieces y detalles de acabados; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha"
@@ -261,9 +250,9 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Acabados e interiores",
       "delivery": false,
       "owner": "Sin asignar",
-      "status": "Sin confirmar",
+      "status": "En proceso",
       "progress": null,
-      "date": "",
+      "date": "2026-11-03",
       "notes": ""
     },
     {
@@ -272,9 +261,9 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Acabados e interiores",
       "delivery": false,
       "owner": "Dan",
-      "status": "Pendiente",
+      "status": "En proceso",
       "progress": null,
-      "date": "",
+      "date": "2026-11-03",
       "notes": ""
     },
     {
@@ -304,10 +293,10 @@ window.ZEMPOALA_PUBLICADO = {
       "name": "Baños — Plantas ampliadas, alzados y detalles",
       "group": "Acabados e interiores",
       "delivery": false,
-      "owner": "Dan",
-      "status": "Pendiente",
+      "owner": "Antonio",
+      "status": "En proceso",
       "progress": null,
-      "date": "",
+      "date": "2026-11-03",
       "notes": ""
     },
     {
@@ -337,10 +326,10 @@ window.ZEMPOALA_PUBLICADO = {
       "name": "Instalación hidráulica — Planta baja y planta alta",
       "group": "Instalaciones",
       "delivery": false,
-      "owner": "Sin asignar",
+      "owner": "Dan",
       "status": "Sin confirmar",
       "progress": null,
-      "date": "",
+      "date": "2026-11-03",
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nHID-01: Instalación hidráulica — Planta baja; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha\nHID-02: Instalación hidráulica — Planta alta y azotea; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha"
     },
     {
@@ -370,10 +359,10 @@ window.ZEMPOALA_PUBLICADO = {
       "name": "Instalación sanitaria — Planta baja y planta alta",
       "group": "Instalaciones",
       "delivery": false,
-      "owner": "Sin asignar",
-      "status": "Sin confirmar",
+      "owner": "Dan",
+      "status": "En proceso",
       "progress": null,
-      "date": "",
+      "date": "2026-11-03",
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nSAN-01: Instalación sanitaria — Planta baja; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha\nSAN-02: Instalación sanitaria — Planta alta; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha"
     },
     {
@@ -388,17 +377,6 @@ window.ZEMPOALA_PUBLICADO = {
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nSAN-03: Isométricos sanitarios, registros y detalles; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha"
     },
     {
-      "id": "PLU-01",
-      "name": "Instalación pluvial — Captación en azotea, bajantes y descarga",
-      "group": "Instalaciones",
-      "delivery": false,
-      "owner": "Sin asignar",
-      "status": "Sin confirmar",
-      "progress": null,
-      "date": "",
-      "notes": ""
-    },
-    {
       "id": "ELE-01",
       "name": "Contactos y fuerza — Planta baja y planta alta",
       "group": "Instalaciones",
@@ -406,19 +384,8 @@ window.ZEMPOALA_PUBLICADO = {
       "owner": "Dan",
       "status": "Pendiente",
       "progress": null,
-      "date": "",
+      "date": "2026-11-03",
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nELE-01: Contactos y fuerza — Planta baja; Dan; Pendiente; sin avance confirmado; fecha sin fecha\nELE-02: Contactos y fuerza — Planta alta y azotea; Dan; Pendiente; sin avance confirmado; fecha sin fecha"
-    },
-    {
-      "id": "ELE-02",
-      "name": "Contactos y fuerza — Azotea",
-      "group": "Instalaciones",
-      "delivery": false,
-      "owner": "Dan",
-      "status": "Pendiente",
-      "progress": null,
-      "date": "",
-      "notes": "Reorganización PB + PA. Origen (claves anteriores):\nELE-02: Contactos y fuerza — Planta alta y azotea; Dan; Pendiente; sin avance confirmado; fecha sin fecha"
     },
     {
       "id": "ELE-03",
@@ -437,21 +404,10 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Instalaciones",
       "delivery": false,
       "owner": "Dan",
-      "status": "Pendiente",
+      "status": "En proceso",
       "progress": null,
       "date": "",
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nILU-01: Iluminación, apagadores y controles — Planta baja; Dan; Pendiente; sin avance confirmado; fecha sin fecha\nILU-02: Iluminación, apagadores y controles — Planta alta y azotea; Dan; Pendiente; sin avance confirmado; fecha sin fecha"
-    },
-    {
-      "id": "ILU-02",
-      "name": "Iluminación, apagadores y controles — Azotea",
-      "group": "Instalaciones",
-      "delivery": false,
-      "owner": "Dan",
-      "status": "Pendiente",
-      "progress": null,
-      "date": "",
-      "notes": "Reorganización PB + PA. Origen (claves anteriores):\nILU-02: Iluminación, apagadores y controles — Planta alta y azotea; Dan; Pendiente; sin avance confirmado; fecha sin fecha"
     },
     {
       "id": "GAS-01",
