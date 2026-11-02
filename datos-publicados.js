@@ -1,6 +1,6 @@
 window.ZEMPOALA_PUBLICADO = {
   "version": 2,
-  "updated": "2026-11-02T16:17:50.926Z",
+  "updated": "2026-11-02T19:41:38.342Z",
   "rows": [
     {
       "id": "GEN-01",
@@ -252,7 +252,7 @@ window.ZEMPOALA_PUBLICADO = {
       "owner": "Sin asignar",
       "status": "En proceso",
       "progress": null,
-      "date": "2026-11-03",
+      "date": "",
       "notes": ""
     },
     {
@@ -263,7 +263,7 @@ window.ZEMPOALA_PUBLICADO = {
       "owner": "Dan",
       "status": "En proceso",
       "progress": null,
-      "date": "2026-11-03",
+      "date": "",
       "notes": ""
     },
     {
@@ -406,7 +406,7 @@ window.ZEMPOALA_PUBLICADO = {
       "owner": "Dan",
       "status": "En proceso",
       "progress": null,
-      "date": "",
+      "date": "2026-11-03",
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nILU-01: Iluminación, apagadores y controles — Planta baja; Dan; Pendiente; sin avance confirmado; fecha sin fecha\nILU-02: Iluminación, apagadores y controles — Planta alta y azotea; Dan; Pendiente; sin avance confirmado; fecha sin fecha"
     },
     {
