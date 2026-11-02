@@ -1,6 +1,6 @@
 window.ZEMPOALA_PUBLICADO = {
   "version": 2,
-  "updated": "2026-11-02T19:41:38.342Z",
+  "updated": "2026-11-02T19:59:49.980Z",
   "rows": [
     {
       "id": "GEN-01",
@@ -295,7 +295,7 @@ window.ZEMPOALA_PUBLICADO = {
       "delivery": false,
       "owner": "Antonio",
       "status": "En proceso",
-      "progress": null,
+      "progress": 85,
       "date": "2026-11-03",
       "notes": ""
     },
@@ -327,7 +327,7 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Instalaciones",
       "delivery": false,
       "owner": "Dan",
-      "status": "Sin confirmar",
+      "status": "En proceso",
       "progress": null,
       "date": "2026-11-03",
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nHID-01: Instalación hidráulica — Planta baja; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha\nHID-02: Instalación hidráulica — Planta alta y azotea; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha"
@@ -382,8 +382,8 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Instalaciones",
       "delivery": false,
       "owner": "Dan",
-      "status": "Pendiente",
-      "progress": null,
+      "status": "Terminado",
+      "progress": 100,
       "date": "2026-11-03",
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nELE-01: Contactos y fuerza — Planta baja; Dan; Pendiente; sin avance confirmado; fecha sin fecha\nELE-02: Contactos y fuerza — Planta alta y azotea; Dan; Pendiente; sin avance confirmado; fecha sin fecha"
     },
@@ -405,7 +405,7 @@ window.ZEMPOALA_PUBLICADO = {
       "delivery": false,
       "owner": "Dan",
       "status": "En proceso",
-      "progress": null,
+      "progress": 50,
       "date": "2026-11-03",
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nILU-01: Iluminación, apagadores y controles — Planta baja; Dan; Pendiente; sin avance confirmado; fecha sin fecha\nILU-02: Iluminación, apagadores y controles — Planta alta y azotea; Dan; Pendiente; sin avance confirmado; fecha sin fecha"
     },
