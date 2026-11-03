@@ -1,6 +1,6 @@
 window.ZEMPOALA_PUBLICADO = {
   "version": 2,
-  "updated": "2026-11-02T19:59:49.980Z",
+  "updated": "2026-11-03T17:42:06.242Z",
   "rows": [
     {
       "id": "GEN-01",
@@ -179,17 +179,6 @@ window.ZEMPOALA_PUBLICADO = {
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nEST-03: Intervenciones y refuerzos en estructura sobre planta baja; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha\nEST-04: Intervenciones y refuerzos en estructura sobre planta alta y azotea; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha"
     },
     {
-      "id": "EST-04",
-      "name": "Intervenciones y refuerzos en estructura — Azotea",
-      "group": "Estructura y calas",
-      "delivery": false,
-      "owner": "Sin asignar",
-      "status": "Sin confirmar",
-      "progress": null,
-      "date": "",
-      "notes": "Reorganización PB + PA. Origen (claves anteriores):\nEST-04: Intervenciones y refuerzos en estructura sobre planta alta y azotea; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha"
-    },
-    {
       "id": "EST-05",
       "name": "Detalles estructurales, conexiones y secuencia de intervención",
       "group": "Estructura y calas",
@@ -251,7 +240,7 @@ window.ZEMPOALA_PUBLICADO = {
       "delivery": false,
       "owner": "Sin asignar",
       "status": "En proceso",
-      "progress": null,
+      "progress": 30,
       "date": "",
       "notes": ""
     },
@@ -294,8 +283,8 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Acabados e interiores",
       "delivery": false,
       "owner": "Antonio",
-      "status": "En proceso",
-      "progress": 85,
+      "status": "Terminado",
+      "progress": 100,
       "date": "2026-11-03",
       "notes": ""
     },
@@ -328,53 +317,9 @@ window.ZEMPOALA_PUBLICADO = {
       "delivery": false,
       "owner": "Dan",
       "status": "En proceso",
-      "progress": null,
+      "progress": 50,
       "date": "2026-11-03",
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nHID-01: Instalación hidráulica — Planta baja; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha\nHID-02: Instalación hidráulica — Planta alta y azotea; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha"
-    },
-    {
-      "id": "HID-02",
-      "name": "Instalación hidráulica — Azotea",
-      "group": "Instalaciones",
-      "delivery": false,
-      "owner": "Sin asignar",
-      "status": "Sin confirmar",
-      "progress": null,
-      "date": "",
-      "notes": "Reorganización PB + PA. Origen (claves anteriores):\nHID-02: Instalación hidráulica — Planta alta y azotea; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha"
-    },
-    {
-      "id": "HID-03",
-      "name": "Isométricos hidráulicos, equipos y detalles",
-      "group": "Instalaciones",
-      "delivery": false,
-      "owner": "Sin asignar",
-      "status": "Sin confirmar",
-      "progress": null,
-      "date": "",
-      "notes": ""
-    },
-    {
-      "id": "SAN-01",
-      "name": "Instalación sanitaria — Planta baja y planta alta",
-      "group": "Instalaciones",
-      "delivery": false,
-      "owner": "Dan",
-      "status": "En proceso",
-      "progress": null,
-      "date": "2026-11-03",
-      "notes": "Reorganización PB + PA. Origen (claves anteriores):\nSAN-01: Instalación sanitaria — Planta baja; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha\nSAN-02: Instalación sanitaria — Planta alta; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha"
-    },
-    {
-      "id": "SAN-02",
-      "name": "Isométricos sanitarios, registros y detalles",
-      "group": "Instalaciones",
-      "delivery": false,
-      "owner": "Sin asignar",
-      "status": "Sin confirmar",
-      "progress": null,
-      "date": "",
-      "notes": "Reorganización PB + PA. Origen (claves anteriores):\nSAN-03: Isométricos sanitarios, registros y detalles; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha"
     },
     {
       "id": "ELE-01",
@@ -404,8 +349,8 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Instalaciones",
       "delivery": false,
       "owner": "Dan",
-      "status": "En proceso",
-      "progress": 50,
+      "status": "Terminado",
+      "progress": 100,
       "date": "2026-11-03",
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nILU-01: Iluminación, apagadores y controles — Planta baja; Dan; Pendiente; sin avance confirmado; fecha sin fecha\nILU-02: Iluminación, apagadores y controles — Planta alta y azotea; Dan; Pendiente; sin avance confirmado; fecha sin fecha"
     },
@@ -421,8 +366,8 @@ window.ZEMPOALA_PUBLICADO = {
       "notes": ""
     },
     {
-      "id": "ESP-01",
-      "name": "Voz, datos, televisión y seguridad (según equipamiento)",
+      "id": "DOM-01",
+      "name": "DOMOTICA",
       "group": "Instalaciones",
       "delivery": false,
       "owner": "Sin asignar",
