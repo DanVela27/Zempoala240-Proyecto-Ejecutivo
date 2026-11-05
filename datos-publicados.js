@@ -1,6 +1,6 @@
 window.ZEMPOALA_PUBLICADO = {
   "version": 2,
-  "updated": "2026-11-03T17:42:06.242Z",
+  "updated": "2026-11-05T01:10:05.396Z",
   "rows": [
     {
       "id": "GEN-01",
@@ -86,8 +86,8 @@ window.ZEMPOALA_PUBLICADO = {
       "delivery": true,
       "owner": "Dan",
       "status": "En proceso",
-      "progress": null,
-      "date": "",
+      "progress": 20,
+      "date": "2026-11-13",
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nARQ-04: Cortes arquitectónicos; Dan; En proceso; sin avance confirmado; fecha 2026-10-27"
     },
     {
@@ -150,21 +150,10 @@ window.ZEMPOALA_PUBLICADO = {
       "name": "Identificación de estructura existente y zonas de intervención",
       "group": "Estructura y calas",
       "delivery": false,
-      "owner": "Sin asignar",
-      "status": "Sin confirmar",
-      "progress": null,
-      "date": "",
-      "notes": ""
-    },
-    {
-      "id": "EST-02",
-      "name": "Intervención en cimentación y detalles de refuerzo (si corresponde)",
-      "group": "Estructura y calas",
-      "delivery": false,
-      "owner": "Sin asignar",
-      "status": "Sin confirmar",
-      "progress": null,
-      "date": "",
+      "owner": "Dan",
+      "status": "En proceso",
+      "progress": 80,
+      "date": "2026-11-05",
       "notes": ""
     },
     {
@@ -195,9 +184,9 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Acabados e interiores",
       "delivery": true,
       "owner": "Antonio",
-      "status": "Terminado",
-      "progress": 100,
-      "date": "2026-10-27",
+      "status": "Con bloqueo",
+      "progress": 90,
+      "date": "",
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nACA-01: Acabados en pisos y muros — Planta baja; Antonio; Terminado; 100 %; fecha 2026-10-27\nACA-02: Acabados en pisos y muros — Planta alta; Antonio; Terminado; 100 %; fecha 2026-10-27"
     },
     {
@@ -206,8 +195,8 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Acabados e interiores",
       "delivery": true,
       "owner": "Antonio",
-      "status": "En proceso",
-      "progress": 50,
+      "status": "Con bloqueo",
+      "progress": 80,
       "date": "",
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nACA-03: Acabados e impermeabilización — Azotea; Antonio; Terminado; 100 %; fecha 2026-10-27"
     },
@@ -227,10 +216,10 @@ window.ZEMPOALA_PUBLICADO = {
       "name": "Plafones, alturas y registros — Planta baja y planta alta",
       "group": "Acabados e interiores",
       "delivery": false,
-      "owner": "Sin asignar",
-      "status": "Sin confirmar",
+      "owner": "Dan",
+      "status": "En proceso",
       "progress": null,
-      "date": "",
+      "date": "2026-11-06",
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nPLA-01: Plafones, alturas y registros — Planta baja; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha\nPLA-02: Plafones, alturas y registros — Planta alta; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha"
     },
     {
@@ -238,21 +227,10 @@ window.ZEMPOALA_PUBLICADO = {
       "name": "Ubicación, cuadro y detalles de puertas y carpinterías",
       "group": "Acabados e interiores",
       "delivery": false,
-      "owner": "Sin asignar",
+      "owner": "Antonio",
       "status": "En proceso",
-      "progress": 30,
-      "date": "",
-      "notes": ""
-    },
-    {
-      "id": "CAR-02",
-      "name": "Detalles de clósets y mobiliario fijo",
-      "group": "Acabados e interiores",
-      "delivery": false,
-      "owner": "Dan",
-      "status": "En proceso",
-      "progress": null,
-      "date": "",
+      "progress": 50,
+      "date": "2026-11-06",
       "notes": ""
     },
     {
@@ -260,10 +238,10 @@ window.ZEMPOALA_PUBLICADO = {
       "name": "Ubicación, cuadro y detalles de cancelería",
       "group": "Acabados e interiores",
       "delivery": false,
-      "owner": "Sin asignar",
-      "status": "Sin confirmar",
+      "owner": "Dan",
+      "status": "En proceso",
       "progress": null,
-      "date": "",
+      "date": "2026-11-06",
       "notes": ""
     },
     {
@@ -272,9 +250,9 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Acabados e interiores",
       "delivery": false,
       "owner": "Sin asignar",
-      "status": "Sin confirmar",
+      "status": "En proceso",
       "progress": null,
-      "date": "",
+      "date": "2026-11-05",
       "notes": ""
     },
     {
@@ -300,17 +278,6 @@ window.ZEMPOALA_PUBLICADO = {
       "notes": "Incluir modulación, alzados acotados, cortes y salidas de gas, agua fría, caliente y drenaje. Confirmar equipos y medidas pendientes."
     },
     {
-      "id": "INT-03",
-      "name": "Lavandería y áreas de servicio — Plantas, alzados y detalles",
-      "group": "Acabados e interiores",
-      "delivery": false,
-      "owner": "Sin asignar",
-      "status": "Sin confirmar",
-      "progress": null,
-      "date": "",
-      "notes": ""
-    },
-    {
       "id": "HID-01",
       "name": "Instalación hidráulica — Planta baja y planta alta",
       "group": "Instalaciones",
@@ -318,7 +285,7 @@ window.ZEMPOALA_PUBLICADO = {
       "owner": "Dan",
       "status": "En proceso",
       "progress": 50,
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "notes": "Reorganización PB + PA. Origen (claves anteriores):\nHID-01: Instalación hidráulica — Planta baja; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha\nHID-02: Instalación hidráulica — Planta alta y azotea; Sin asignar; Sin confirmar; sin avance confirmado; fecha sin fecha"
     },
     {
@@ -338,7 +305,7 @@ window.ZEMPOALA_PUBLICADO = {
       "group": "Instalaciones",
       "delivery": false,
       "owner": "Sin asignar",
-      "status": "Sin confirmar",
+      "status": "Con bloqueo",
       "progress": null,
       "date": "",
       "notes": ""
@@ -366,14 +333,14 @@ window.ZEMPOALA_PUBLICADO = {
       "notes": ""
     },
     {
-      "id": "DOM-01",
-      "name": "DOMOTICA",
+      "id": "SAN-01",
+      "name": "Instalación sanitaria - Planta Alta",
       "group": "Instalaciones",
-      "delivery": false,
-      "owner": "Sin asignar",
-      "status": "Sin confirmar",
-      "progress": null,
-      "date": "",
+      "delivery": true,
+      "owner": "Dan",
+      "status": "Terminado",
+      "progress": 100,
+      "date": "2026-11-03",
       "notes": ""
     }
   ]
